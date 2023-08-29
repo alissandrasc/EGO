@@ -1,6 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Georama:wght@400;700&family=Roboto+Slab:wght@700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Georama';
 }
+
+body {
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: grey;
+}
+
+h1 {
+    margin-bottom: 25px;
+    color:#f0f8ff;
+}
+
+.left {
+    width: 50vw;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    color: #f0f8ff;
+    margin: 0 0 50px 10px;
+
+}
+/*preciso de aula de u.i urgentemente*/
+
+img {
+    max-height: 80%;
+}
+
+.right {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 25px;
+    background: #1a2021;
+}
+
+.textfield {
+    width: 100%;
+    color: #b9b6e0;
+    padding: 10px;
+}
+
+.textfield>input {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn-login {
+    margin-top: 20px;
+    padding: 7px;
+    border-radius: 7px;
+    background: #3d3d57;
+    color: #b9b6e0;
+    font-weight: 600;
+}
+
+.left {
+    width: 50vw;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*preciso de aula de u.i urgentemente*/
